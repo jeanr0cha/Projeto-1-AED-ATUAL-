@@ -1,10 +1,11 @@
 # Projeto-1-AED
 Criar um sistema que consiste em uma busca do usuário final por um profissional específico entre pedreiro, marceneiro, carpinteiro, onde cada profissional cobra um valor de diária diferente.
 
-
-
+# Código padrão para inicalizar.
 using System;
 using System.Globalization;
+
+# Classe Cliente
 
 class Cliente
 {
@@ -25,6 +26,8 @@ class Cliente
     }
 
 }
+
+# Classe Orçamento.
 
 class Orcamento
 {
@@ -48,8 +51,7 @@ class Orcamento
 
 }
 
-
-// float[] m_joao = new float[] { 200, 250, 300 }; //valores da mão de obra por m² de João
+# Função main.
 
 namespace Projeto_1_AED_1
 {
